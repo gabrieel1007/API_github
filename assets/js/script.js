@@ -1,7 +1,7 @@
 const repositories = document.querySelector('.content-main');
 
 function getApiGitHub(){
-    fetch('https://api.github.com/users/barbosaxbarbosa/repos')
+    fetch('https://api.github.com/users/gabrieel1007/repos')
     .then(async res =>{
         if(!res.ok){
             throw new Error(res.status);
